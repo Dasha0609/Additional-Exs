@@ -1,11 +1,9 @@
 ﻿// Есть программа с бесконечным циклом. Когда пользователь вводит exit программа заканчивается
 
-   Console.Write("Please enter word: ");
-   string? word = Console.ReadLine(); 
 
-while (word != "exit")
+while (true)
 {
-   Console.Write("Please enter word again: ");
+   Console.Write("Please enter word: ");
    string? repeat = Console.ReadLine();
    if (repeat == "exit")
    {
