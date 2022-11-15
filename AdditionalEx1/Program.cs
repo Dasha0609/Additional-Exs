@@ -5,17 +5,13 @@
 for (int entries = 0; entries < 3; entries++)
 {
     Console.Write(" Please enter your password: ");
-    String? Password = Console.ReadLine(); 
-    if (Password == "Dasha")
+    string? password = Console.ReadLine(); 
+    if (password == "Dasha")
     {
         Console.WriteLine("What a lovely day today =)");
         break;
     }
-    else
-    {
-        Console.WriteLine(" Password is incorrect. Please try again ");
     }
-}
 
 
 
