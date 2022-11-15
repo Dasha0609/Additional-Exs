@@ -5,7 +5,7 @@
 
 while (word != "exit")
 {
-   Console.Write("Please enter word: ");
+   Console.Write("Please enter word again: ");
    string? repeat = Console.ReadLine();
    if (repeat == "exit")
    {
